@@ -208,4 +208,8 @@ footer a:hover{
     background-color: var(--cor1);
     text-decoration: underline;
 }
-
+h1 > aside{
+    background-color: white;
+    font-size: 0.5em;
+    max-width: max-content;
+}
