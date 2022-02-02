@@ -173,6 +173,11 @@ aside{
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.301) ;
 
 }
+h1  aside{
+    background-color: white;
+    font-size: 0.5em;
+    max-width: max-content;
+}
 aside > ul{
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
@@ -207,9 +212,4 @@ footer a{
 footer a:hover{
     background-color: var(--cor1);
     text-decoration: underline;
-}
-h1 > aside{
-    background-color: white;
-    font-size: 0.5em;
-    max-width: max-content;
 }
